@@ -1,12 +1,11 @@
 
 import './App.css';
+import HeaderResponsivo from './components/HeaderResponsivo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        hello word
-      </header>
+      <HeaderResponsivo/>
     </div>
   );
 }
